@@ -1,4 +1,4 @@
-# testrep
+#### testrep
 This repo contains the work completed for Lab 1 for APPM 4600
 
 The goal of this lab was to learn basic commands and skills in Python, like plotting and practical code design. 
