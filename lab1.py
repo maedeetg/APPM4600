@@ -9,6 +9,8 @@ def driver():
     a = np.linspace(0, np.pi, n)
     b = 0 * a
 
+    # compute the dot prodcut between two vectors a and b that
+    # are both size n
     dp = dotProduct(a, b, n)
     print('The dot product is: ', dp)
     
@@ -36,6 +38,10 @@ def driver():
     a2 = np.linspace(0, np.pi, n2)
     b2 = 0 * a2
     
+    # the following code will output the runtime of each method
+    # in order to compare which methods are faster
+    
+    # run time for my dot product
     start_time1 = time.time()
     dp2 = dotProduct(a2, b2, n2)
     end_time1 = time.time()
@@ -65,8 +71,14 @@ def driver():
     
     
 def dotProduct(x, y, n):
-    dp = 0.
+    '''This function will compute the
+       dot product of two vectors x, y
+       of size n'''
     
+    dp = 0. # initilize dot product
+    
+    # this for loop will go through all n elements in the vectors
+    # and compute their product, and then update dp
     for j in range(n):
         dp = dp + x[j]*y[j]
 
@@ -82,6 +94,7 @@ def matrix_mult(A, B):
     
     C = np.zeros((m1, n2)) # intilize final matrix, size is n1 by m2
     
+    # this nested for loop will go through each column and row and compute the dot product, then update the ith, jth element of C
     for i in range(0, n1):
         for j in range(0, n2):
             C[i][j] = dotProduct(A[i, :], B[:, j], m2)
