@@ -1,9 +1,4 @@
-<<<<<<< HEAD
-will this work?
-
-=======
-Trank-Greene
->>>>>>> 094f967e9b19f11c4b22e0e4c9ba44ddbb797d43
+Maedee
 #### testrep
 This repo contains the work completed for Lab 1 for APPM 4600
 
