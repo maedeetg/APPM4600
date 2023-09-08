@@ -8,7 +8,7 @@ x = np.linspace(0, 10, 100)
 y = np.arange(0, 10, 0.01)
 
 # 2
-x[0:3]
+x[0:3] # 
 
 # 3
 print('The first three entries of x are', x[0:3])
