@@ -52,6 +52,7 @@ def driver():
     C3 = matrix_mult(A3, A3)
     end_time2 = time.time()
     
+    # run time for numpy dot product
     start_time3 = time.time()
     new_dot = np.dot(a2, b2)
     end_time3 = time.time()
