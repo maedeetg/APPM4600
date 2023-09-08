@@ -1,4 +1,3 @@
-Trank-Greene
 #### testrep
 This repo contains the work completed for Lab 1 for APPM 4600
 
