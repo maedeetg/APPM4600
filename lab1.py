@@ -46,6 +46,7 @@ def driver():
     dp2 = dotProduct(a2, b2, n2)
     end_time1 = time.time()
     
+    # run time for matrix_mult
     A3 = np.ones((30, 30))
     start_time2 = time.time()
     C3 = matrix_mult(A3, A3)
