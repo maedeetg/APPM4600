@@ -8,7 +8,7 @@ Both forward difference and backward difference converge linearly. We can see th
 
 # 3.3 Exercises
 
-2) For a larger h_j, we need more iterations. In my case, I needed 3 iterations with $h_j = 10**{-7}|x_j|$ and needed 4 iterations with $h_j = 10**{-3}|x_j|$
+2) For a larger h_j, we need more iterations. In my case, I needed 3 iterations with $h_j = 10^{-7}|x_j|$ and needed 4 iterations with $h_j = 10^{-3}|x_j|$
 
 # 3.4 Exercises
 
