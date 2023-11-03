@@ -1,0 +1,1 @@
+When we change the function to $f(x) = \frac{1}{1 + x^2}$, we see the magnitude of the error remains similar from the previous plot, so the accuracy of the approxiamtions reamins the same. 
