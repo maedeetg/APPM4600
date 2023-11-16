@@ -1,0 +1,3 @@
+# How many intervals does each method need to get the desired accuracy?
+
+# Which is the best choice of adaptive scheme?
